@@ -1,0 +1,18 @@
+@blue: rgb(153,204,255);
+
+.rounded-corners (@radius: 5px) {
+    border-radius: @radius;
+    -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+    padding: 5px;
+    text-align: center;
+}
+
+body {
+    background-color: darken(@blue, 20%);
+}
+
+#wrapper {
+    .rounded-corners(10px);
+    background-color: @blue;
+}
