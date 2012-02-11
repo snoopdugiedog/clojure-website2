@@ -11,4 +11,6 @@
 (defpage "/my-page" []
   (common/site-layout
    [:h1 "Welcome to my site!"]
-   [:p "Hope you like it"]))
+   [:p "Hope you like it"]
+   [:a {:href "" :onclick "alert('foo');"}
+    "Suprise me"]))
