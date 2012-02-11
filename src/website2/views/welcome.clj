@@ -12,5 +12,5 @@
   (common/site-layout
    [:h1 "Welcome to my site!"]
    [:p "Hope you like it"]
-   [:a {:href "" :onclick "alert('foo');"}
+   [:a {:href "" :onclick "main.message();"}
     "Suprise me"]))
