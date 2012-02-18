@@ -29,8 +29,8 @@
 
 (defpage "/tasks" []
   (common/site-layout
-   [:h1 "Welcome to my site!"]
-   [:p "Hope you like it"]
-   [:a {:href "#" :onclick "main.add_task();"}
-    "Suprise me"]
-   [:p#tail "original"]))
+   [:h1 "The Tasks"]
+   [:ol
+    [:li#add_task [:a {:href "#" :onclick "main.add_task();"}
+       "Suprise me"]]]
+   ))
