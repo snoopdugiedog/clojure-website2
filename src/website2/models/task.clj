@@ -1,4 +1,4 @@
-(ns website2.views.task)
+(ns website2.models.task)
 
-(defn add-task [summary]
+(defn add-task [{:keys [summary]}]
   {:summary summary})
