@@ -3,6 +3,7 @@
             :dependencies [[org.clojure/clojure "1.3.0"]
                            [noir "1.2.1"]
                            [jayq "0.1.0-SNAPSHOT"]
+                           [crate "0.1.0-SNAPSHOT"]
                            ]
             ;; lein-cljsbuild
             ;; https://github.com/emezeske/lein-cljsbuild
