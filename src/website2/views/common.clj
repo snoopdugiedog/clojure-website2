@@ -21,6 +21,7 @@
   (html5
    [:head
     [:title "my website2"]
+    (include-js "http://code.jquery.com/jquery-1.7.1.min.js")
     (include-js "/js/main.js")
     (include-less "/less/basic.less")
     (include-js "/js/less-1.2.1.min.js")

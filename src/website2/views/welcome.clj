@@ -13,7 +13,7 @@
   (common/site-layout
    [:h1 "Welcome to my site!"]
    [:p "Hope you like it"]
-   [:a {:href "" :onclick "main.message();"}
+   [:a {:href "#" :onclick "main.message();"}
     "Suprise me"]))
 
 (defpage "/submit" []
@@ -26,3 +26,11 @@
   (common/site-layout
     [:h1 "Hello"]
     [:h1 name]))
+
+(defpage "/tasks" []
+  (common/site-layout
+   [:h1 "Welcome to my site!"]
+   [:p "Hope you like it"]
+   [:a {:href "#" :onclick "main.add_task();"}
+    "Suprise me"]
+   [:p#tail "original"]))
